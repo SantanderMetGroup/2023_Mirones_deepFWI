@@ -1,0 +1,28 @@
+{
+    "creators": [
+        {   
+            "orcid": "",
+            "affiliation": "Dept. Matemática Aplicada y Ciencias de la Computación (MACC), Universidad de Cantabria, Santander, Spain; Grupo de Meteorología y Computación, Universidad de Cantabria, Unidad Asociada al CSIC, Santander, Spain",
+            "name": "Mirones, Óscar"
+        },
+        {   
+            "orcid": "0000-0003-3380-1579",
+            "affiliation": "Instituto de Física de Cantabria (IFCA), CSIC-Universidad de Cantabria, Santander,Spain",
+            "name": "Baño-Medina, Jorge"
+        },
+
+        {   
+            "orcid": "",
+            "affiliation": "Dept. Matemática Aplicada y Ciencias de la Computación (MACC), Universidad de Cantabria, Santander, Spain; Grupo de Meteorología y Computación, Universidad de Cantabria, Unidad Asociada al CSIC, Santander, Spain",
+            "name": "Bedia, Joaquín"
+        }
+   ],    
+
+    "license": "CC-BY-4.0",
+
+    "title": "Repository supporting the results presented in the manuscript entitled Learning the spatial structure of Fire Weather Index with convolutional neural networks",
+    
+    "description": "<p> It contains technical information provided for transparency and reproducibility of the results presented in the manuscript.</p>",
+
+    "keywords": ["FWI", "DeepLearning", "spatial"]
+}
