@@ -1,0 +1,5 @@
+geosphere (v1.5-14)
+scales (v1.2.1)
+abind (v1.4.5)
+lattice (v0.20-41)
+
