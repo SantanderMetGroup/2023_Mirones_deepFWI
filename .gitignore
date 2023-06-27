@@ -6,6 +6,9 @@
 .RData
 .RDataTmp
 
+# Mac files
+.DS_Store
+
 # User-specific files
 .Ruserdata
 
