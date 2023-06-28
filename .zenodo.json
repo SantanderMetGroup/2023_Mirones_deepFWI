@@ -12,7 +12,7 @@
         },
 
         {   
-            "orcid": "",
+            "orcid": "0000-0001-6219-4312",
             "affiliation": "Dept. Matemática Aplicada y Ciencias de la Computación (MACC), Universidad de Cantabria, Santander, Spain; Grupo de Meteorología y Computación, Universidad de Cantabria, Unidad Asociada al CSIC, Santander, Spain",
             "name": "Bedia, Joaquín"
         }
@@ -22,7 +22,7 @@
 
     "title": "Repository supporting the results presented in the manuscript entitled Learning the spatial structure of Fire Weather Index with convolutional neural networks",
     
-    "description": "<p> It contains technical information provided for transparency and reproducibility of the results presented in the manuscript.</p>",
+    "description": "<p> It contains technical information contributing to FAIR principles by enabling the Findability, Accessibility, Interoperability, and Reusability of the code, promoting open and transparent access, collaboration, and reuse of research software for transparency and reproducibility of the results presented in the manuscript.</p>",
 
     "keywords": ["FWI", "DeepLearning", "spatial"]
 }
