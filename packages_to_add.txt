@@ -1,5 +1,4 @@
-geosphere (v1.5-14)
-scales (v1.2.1)
-abind (v1.4.5)
-lattice (v0.20-41)
-
+geosphere (v1.5-14) --> required to use auxiliary functions in plotting correlograms
+scales (v1.2.1) --> required to add an alpha channel to a color in the visualization of the correlograms
+abind (v1.4.5) --> required to use auxiliary functions in plotting correlograms
+lattice (v0.20-41) --> required to use levelplot in the visualization of the MI matrices
