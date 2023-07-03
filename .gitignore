@@ -50,3 +50,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Jupyter Notebook to store checkpoint files for notebooks
+.ipynb_checkpoints/
