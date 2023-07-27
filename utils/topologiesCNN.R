@@ -65,4 +65,22 @@ cnn_model <- function(topology, input_shape, output_shape, kernel_size, neurons,
     ## -------------------    
     return(list("model" = model, "modelDist" = modelDist)) 
   }
+  
+  # cnn-multi-site-gaussian-attention -------------------------------------------------------
+  if (topology == "cnn-multi-site-gaussian-attention") {
+    inputs <- layer_input(shape = input_shape)
+    l1 = layer_conv_2d(inputs,filters = 50, kernel_size = kernel_size, activation = "relu", padding = "valid")
+    l2 = layer_conv_2d(l1, filters = 25, kernel_size = kernel_size, activation = "relu", padding = "valid")
+    l3 = layer_conv_2d(l2, filters = 10, kernel_size = kernel_size, activation = "relu", padding = "valid") 
+    l4 = layer_attention(list(l3,l3))
+    l5 = layer_flatten(l4)
+    l6 = layer_dense(l5, units = neurons[1], activation = "relu") 
+    l7 = layer_dense(l6, units = neurons[2], activation = "relu") 
+    l81 = layer_dense(l7, units = output_shape, activation = "linear") 
+    l82 = layer_dense(l7, units = output_shape, activation = "linear") 
+    outputs <- layer_concatenate(list(l81,l82))  
+    model <- keras_model(inputs = inputs, outputs = outputs) 
+    ## -------------------    
+    return(model) 
+  }
 }
