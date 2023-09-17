@@ -1,4 +1,7 @@
 # Optimization of Convolutional Neural Network models for spatially coherent multi-site fire danger predictions
+
+![CNN-MSMG scheme](https://github.com/SantanderMetGroup/2023_Mirones_deepFWI/blob/devel/CNN-MSMG-scheme.png?raw=true)
+
 This repository contains the material and guidelines to reproduce the results presented in the manuscript entitled **Optimization of Convolutional Neural Network models for spatially coherent multi-site fire danger predictions**, submitted to the journal *Geophysical Research Letters* by *O. Mirones et al.*. 
 Our study analyzes the ability of state-of-the-art CNN-based machine learning methods to model the multivariate spatial structure of the Fire Weather Index (FWI). Authors and corresponding ORCID can be found in the [zenodo.json](.zenodo.json) file.
 
