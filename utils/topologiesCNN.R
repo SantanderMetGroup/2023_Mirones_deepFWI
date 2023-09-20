@@ -57,13 +57,15 @@ cnn_model <- function(topology, input_shape, output_shape, kernel_size, neurons,
       layer_flatten() %>% 
       layer_dense(units = neurons[1], activation = "relu")  %>% 
       layer_dense(units = neurons[2], activation = "relu")  %>% 
-      layer_dense(units = params_size_multivariate_normal_tri_l(event_size = output_shape))
-    
-    modelDist <- keras_model_sequential() %>%
-      model() %>% 
+      layer_dense(units = params_size_multivariate_normal_tri_l(event_size = output_shape)) %>%
       layer_multivariate_normal_tri_l(event_size = output_shape)
-    ## -------------------    
-    return(list("model" = model, "modelDist" = modelDist)) 
+    # modelDist <- keras_model_sequential() %>%
+    #   model() %>%
+    #   layer_multivariate_normal_tri_l(event_size = output_shape)
+    ## -------------------
+    # return(list("model" = model, "modelDist" = modelDist))
+    return(model)
+    
   }
   
   # cnn-multi-site-gaussian-attention -------------------------------------------------------
