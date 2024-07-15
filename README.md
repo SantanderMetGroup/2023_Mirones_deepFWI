@@ -1,9 +1,9 @@
-# Optimization of Convolutional Neural Network models for spatially coherent multi-site fire danger predictions
-### Mirones et al., submitted to _Geophys. Res. Lett._, Sep. 2023
+# Multi-Site Fire Danger Prediction Using a Spatially Coherent Convolutional Neural Network Model
+### Mirones et al., submitted to _Geophys. Res. Lett._, Jun.2024
 
 ***
 
-![CNN-MSMG scheme](https://github.com/SantanderMetGroup/2023_Mirones_deepFWI/blob/devel/CNN-MSMG-scheme.png?raw=true)
+![CNN-MG scheme](https://github.com/SantanderMetGroup/2023_Mirones_deepFWI/blob/devel/CNN-MSMG-scheme.png?raw=true)
 
 Our study analyzes the ability of state-of-the-art CNN-based machine learning methods to model the multivariate spatial structure of the Fire Weather Index (FWI). Authors and corresponding ORCID can be found in the [zenodo.json](.zenodo.json) file.
 
