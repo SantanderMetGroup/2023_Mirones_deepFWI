@@ -3,7 +3,7 @@
 
 ***
 
-![CNN-MG scheme](https://github.com/SantanderMetGroup/2023_Mirones_deepFWI/blob/devel/CNN-MSMG-scheme.png?raw=true)
+![CNN-MG scheme](https://github.com/SantanderMetGroup/2023_Mirones_deepFWI/blob/devel/CONVLSTM-MG-scheme.png?raw=true)
 
 Our study analyzes the ability of state-of-the-art CNN-based machine learning methods to model the multivariate spatial structure of the Fire Weather Index (FWI). Authors and corresponding ORCID can be found in the [zenodo.json](.zenodo.json) file.
 
